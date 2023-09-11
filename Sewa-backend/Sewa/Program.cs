@@ -6,7 +6,7 @@ using Sewa_Infastructure;
 var builder = WebApplication.CreateBuilder(args);
 
 
-// Add services to the container.
+// Add services to the container.ff
 await builder.Services.ConfigureInfrastructure(builder.Configuration);
 builder.Services.ConfigureApplication(builder.Configuration);
 
