@@ -5,7 +5,7 @@ using Sewa_Application.Contracts.Infastructure.Auth;
 using Sewa_Application.Contracts.Persistence;
 using Sewa_Application.Exceptions;
 
-namespace Sewa_Application.Features.Ticket.Commands.CreateToken
+namespace Sewa_Application.Features.Ticket.Commands.CreateToken 
 {
     public class CreateTokenUserCommandHandler : IRequestHandler<CreateTokenUserCommand, TokenDto>
     {
